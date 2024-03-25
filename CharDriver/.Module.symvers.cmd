@@ -1,0 +1,1 @@
+cmd_/home/felipe/Music/TP/TP2/CharacterDevice/CharDriver/Module.symvers :=  sed 's/ko$$/o/'  /home/felipe/Music/TP/TP2/CharacterDevice/CharDriver/modules.order | scripts/mod/modpost -m -a    -o /home/felipe/Music/TP/TP2/CharacterDevice/CharDriver/Module.symvers -e -i Module.symvers -T - 
